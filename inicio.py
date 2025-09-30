@@ -1,6 +1,6 @@
 from bosque import bosque
 from objeto import objeto
-from fin import fin 
+from fin import fin
 import time 
 
 
@@ -38,7 +38,9 @@ def inicio():
         elif opcion2 == "no":
             fin()
  
-
+if __name__ =="__main__":
+   inicio()
+   
 
         
 
