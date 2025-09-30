@@ -1,6 +1,5 @@
 from bosque import bosque
 from objeto import objeto
-from fin import fin
 import time 
 
 
@@ -11,13 +10,13 @@ def inicio():
     time.sleep(3)
     print("¿estas listo para esta gran aventura?")
     time.sleep(4)
-    print("selecciona una opción:" \
+    print("""selecciona una opción:" \
     "1: entras al bosque" \
     "2: ¿buscar un objeto magico?" \
-    "3: salir del juego ")
+    "3: salir del juego """)
     
     #--------------------------------------------desiciones------------------------------------"
-    opcion = input ("elige 1/2/3")
+    opcion = input ("elige 1/2/3:\n")
 
     if opcion == "1":
         bosque()
@@ -36,7 +35,7 @@ def inicio():
             inicio()
 
         elif opcion2 == "no":
-            fin()
+            print("hasta la proximaaa")
  
 if __name__ =="__main__":
    inicio()
