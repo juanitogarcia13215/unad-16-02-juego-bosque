@@ -1,6 +1,6 @@
+import time
 from bosque import bosque
 from objeto import objeto
-import time 
 
 
 #---------------------------------inicio del juego----------------------------------- "
@@ -10,9 +10,13 @@ def inicio():
     time.sleep(3)
     print("¿estas listo para esta gran aventura?")
     time.sleep(4)
-    print("""selecciona una opción:" \
-    "1: entras al bosque" \
-    "2: ¿buscar un objeto magico?" \
+    print("eres el guerrero mas valiente de GLORADIAN, tierra de increibles guerreros")
+    time.sleep(4)
+    print("pero para convertirte en uno de estos guerreros tendras que pasar varias pruebas:")
+    time.sleep(4)
+    print("""!Aqui emieza tu aventura y tu decides tu camino:\n" \
+    "1: entras al bosque\n" \
+    "2: ¿buscar un objeto magico?\n" \
     "3: salir del juego """)
     
     #--------------------------------------------desiciones------------------------------------"
@@ -29,16 +33,15 @@ def inicio():
         time.sleep(3)
         print("¿quieres continuar, si/no?")
 
-        opcion2 = input ("elige si o no ")
+        opcion2 = input ("elige si o no\n")
 
         if opcion2 == "si":
-            inicio()
+            return inicio()
 
         elif opcion2 == "no":
-            print("hasta la proximaaa")
+            print("hasta la proximaaa GUERRERO")
  
-if __name__ =="__main__":
-   inicio()
+
    
 
         
