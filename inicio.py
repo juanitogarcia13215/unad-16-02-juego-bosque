@@ -2,6 +2,8 @@ import time
 from bosque import bosque
 from objeto import objeto
 
+#-------------------------juan david espitia garcia------------------------------------
+#-----------------------ingenieria de sistemas------------------------------------
 
 #---------------------------------inicio del juego----------------------------------- "
 
@@ -41,7 +43,8 @@ def inicio():
         elif opcion2 == "no":
             print("hasta la proximaaa GUERRERO")
  
-
+if __name__ == "__main__":
+    inicio()
    
 
         
